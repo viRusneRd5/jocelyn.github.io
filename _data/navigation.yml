@@ -1,0 +1,7 @@
+# main links
+main:
+  - title: "Home"
+    url: /
+  # Uncomment once the About page is published (remove `published: false` in about.markdown)
+  # - title: "About"
+  #   url: /about/

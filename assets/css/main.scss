@@ -1,0 +1,29 @@
+---
+# Front matter dashes are required so Jekyll processes this file
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+/* Your overrides go below the imports */
+.page__content p,
+.page__content li {
+  font-size: 0.8em;      /* bigger or smaller text: try 1em, 1.1em, 1.2em */
+  text-align: justify;   /* use "left" to turn justification off */
+  hyphens: auto;         /* breaks long words so justified lines have fewer gaps */
+}
+
+/* Tighter spacing around figures and captions (the theme's default is quite loose) */
+.page__content figure {
+  margin: 1em 0 1.2em;
+}
+.page__content figure img {
+  margin-bottom: 0;
+}
+.page__content figcaption {
+  margin: 0.4em 0 0;
+  padding: 0;
+  line-height: 1.4;
+}
